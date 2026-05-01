@@ -36,8 +36,7 @@ After the palm detection over the whole image the subsequent hand landmark model
 Using the landmarks given in the hand detection model, we use a distance measuring function called detector.findDistance between the landmark points 8 and 12 to detect a click. When the distance between the point 8 (index finger) and 12 (middle finger) is less than 30 pixels, the function registers it as a click and records it position. The position recorded is then used in analogous with the keyboard layout model to determine the key pressed, which in-turn is added to the final textbox.
 
 
-## Screenshot of demo
-![image](https://github.com/vinit714/AI-Virtual-Keyboard/assets/52816788/f90b74b9-a1c3-4fbc-b9cf-b693512c1daf)
+
 
 
 
